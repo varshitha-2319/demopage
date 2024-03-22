@@ -1,0 +1,19 @@
+apiVersion : apps/v1
+kind: Deployment
+metadata:
+  name: demopage 
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: demopage
+  template:
+    metadata:
+      labels:
+        app: demopage 
+    spec:
+      containers:
+        - name: demopage 
+          image: consensusdemo.azurecr.io/demopage
+          ports:
+          - containerPort: 80
