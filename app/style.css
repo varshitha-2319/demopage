@@ -1,10 +1,10 @@
 table{
-    background: blue;
-    color:white;
-    width: 50vw;
-    border: 1px dotted rebeccapurple;
+    background: violet;
+    color: green;
+    width: 100vw;
+    border: 5px dotted rebeccapurple;
     
 }
 table th{
-    border: 2px black;
+    border: 2px pink;
 }
